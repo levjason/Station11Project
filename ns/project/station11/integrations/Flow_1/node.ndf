@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Jason.Levine@ibm.com</value>
-    <value name="createdDate">1781094741573</value>
-    <value name="lastModifiedDate">1781094741573</value>
+    <value name="lastModifiedBy">Jason.Levine@ibm.com</value>
+    <value name="lastModifiedDate">1781095133837</value>
     <value name="displayName">Flow_1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -67,6 +66,58 @@
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">FTP Connector</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">ftpconnector</value>
+          <value name="description">Retrieve a file list of the current working directory</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">false</value>
+          <value name="nsName">pub.client.ftp:ls</value>
+          <value name="operationName">listFiles</value>
+          <value name="operationType">actions</value>
+          <null name="packageName"/>
+          <value name="projectName">project.station11</value>
+        </record>
+        <value name="id">ftpconnector</value>
+        <value name="providerName">TechnologyConnector</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <value name="type">ftp</value>
+        <value name="version">1</value>
+        <null name="packageName"/>
+        <value name="description">File transfer connector in cloud</value>
+        <null name="extensionName"/>
+        <null name="certified"/>
+        <null name="registry"/>
+        <null name="category"/>
+        <null name="registeredDate"/>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <number name="index" type="Long">5</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
       </record>
     </record>
   </record>
