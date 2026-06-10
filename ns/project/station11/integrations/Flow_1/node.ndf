@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Jason.Levine@ibm.com</value>
-    <value name="lastModifiedDate">1781095133837</value>
+    <value name="lastModifiedDate">1781095147337</value>
     <value name="displayName">Flow_1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -89,6 +89,13 @@
         <value name="allowCustomOperations">false</value>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">ftpconn</value>
+          <value name="connectionType">ftp</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.station11.ftp.connections:ftpconn</value>
+        <value name="connectionType">ftp</value>
         <value name="type">ftp</value>
         <value name="version">1</value>
         <null name="packageName"/>
@@ -118,6 +125,7 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <Boolean name="accountReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
