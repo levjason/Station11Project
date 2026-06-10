@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/levjason
   gitUsername: levjason
   gitBranch: main
+services:
+- serviceName: project.station11.ftp.connections:ftpconn
+  packages:
+  - name: Station11Project
+    version: "1.0"
+- serviceName: project.station11.integrations:Flow_1
+  packages:
+  - name: Station11Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.870
