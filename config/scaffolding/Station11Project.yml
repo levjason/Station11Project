@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Station11Project
+  gitServerName: levjason
+  gitUrl: https://github.com/levjason
+  gitUsername: levjason
+  gitBranch: main
